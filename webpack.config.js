@@ -28,7 +28,6 @@ const config = {
   sassLoader: {
     includePaths: [path.resolve(APP_DIR, './scss')],
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
   devServer: {
     contentBase: './build',
     hot: true,
