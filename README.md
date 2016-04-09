@@ -12,6 +12,7 @@ Very simple React Webpack project with ESlint, Airbnb ESLint rules and Sass load
 
 ##How to run it
 `npm run dev`
+
 Starts webpack-dev-server with Hot Module Reload so your changes are reflected without refreshing the browser.
 
 ##How to add backend server
