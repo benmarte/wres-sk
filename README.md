@@ -23,5 +23,9 @@ Edit the **target** property in `webpack.config.js` and insert your backend serv
 
 If your ajax request URL looks like this `http://localhost:1337/users` in your code it should look like this `/api/users` any call made to your backend server should be prepended with **/api** webpack will then forward this request to your backend server.
 
+##How to lint your source files
+`npm run lint`
 
+Will run eslint on all your js/jsx files inside the src directory. If you use Sublime Text 3 and would like to lint your code follow [this tutorial](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.y7kt7x4qa) Sublime should auto detect the .eslintrc file and apply the linting rules.
 
+Let me know if you find any issues, happy deving.
