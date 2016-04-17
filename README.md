@@ -28,4 +28,7 @@ If your ajax request URL looks like this `http://localhost:1337/users` in your c
 
 Will run eslint on all your js/jsx files inside the src directory. If you use Sublime Text 3 and would like to lint your code follow [this tutorial](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.y7kt7x4qa) Sublime should auto detect the .eslintrc file and apply the linting rules.
 
+##How to test on mobile devices
+Get your computers ip address [OSX](http://www.wikihow.com/Find-Your-IP-Address-on-a-Mac) [Windows](http://www.wikihow.com/Find-Your-IP-Address-(Windows-7/8,-Windows-XP) then type your computers ip address on your mobile device or any other PC on the same network and append the port `8080` to your ip address. So if your ip address is `192.168.2.10` in order to view the site you would type `192.168.2.10:8080` in your browser and watch Hot Module Reload do it's magic when you edit and save changes.
+
 Let me know if you find any issues, happy deving.
