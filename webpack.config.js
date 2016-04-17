@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 
 const BUILD_DIR = path.resolve(__dirname, 'build');
@@ -22,6 +21,9 @@ const config = {
       {
         test: /\.scss$/,
         loaders: ['style', 'css?sourceMap', 'sass?sourceMap'],
+      },
+      { test: /\.css$/,
+        loader: 'style-loader!css-loader',
       },
     ],
   },
